@@ -1,0 +1,4 @@
+#+TITLE: Simple note taking in neovim
+
+The idea for this repo is based on this video
+[[https://www.youtube.com/watch?v=zB_3FIGRWRU&t=86s]]
