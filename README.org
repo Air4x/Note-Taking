@@ -3,3 +3,9 @@
 The idea for this repo is based on this video [[https://www.youtube.com/watch?v=zB_3FIGRWRU&t=86s]]
 I simple reorganized the scripts in a little different way, to make them compatible with
 [[https://github.com/baskerville/bspwm][bspwm]].
+** Dependencies
+   All the script are POSIX compliant but they need some program to work.
+   - A terminal emulator, in the script the terminal emulator of choice is *termite*
+   - Vim, or a fork of it, in the script I use Neovim
+   - ls, tr, they are part of the GNU Core utils
+   - sh or a POSIX compliant shell like bash, dash or zsh 
