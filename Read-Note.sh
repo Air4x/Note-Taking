@@ -6,4 +6,4 @@ Notelist="$(echo $Notelist | tr " " "\n")"
 echo "$Notelist"
 Chosedfile="$(echo "$Notelist" | rofi -dmenu)"
 Nvimpath=$Notedir$Chosedfile
-nvim $Nvimpath
+termite --class=note-taking --name=note-taking --title=note-taking -e nvim $Nvimpath
